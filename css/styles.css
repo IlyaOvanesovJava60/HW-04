@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell {
+    width: 70px;
+    height: 70px;
+    border: 1px solid lightgray;
+    background-color: aqua;
+    box-sizing: border-box;
+}
+
+.chessBoard {
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.chessBoard div:nth-child(odd) div:nth-child(odd) {
+    background-color: black;
+}
+
+.chessBoard div:nth-child(even) div:nth-child(even) {
+    background-color: black;
+}
