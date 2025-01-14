@@ -3,6 +3,7 @@ html {
 }
 .gallery {
     list-style: none;
+    text-align: center;
 }
 .galler--item {
     border: 4px solid lightgray;
