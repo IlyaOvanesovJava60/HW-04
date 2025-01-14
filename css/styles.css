@@ -1,7 +1,9 @@
 html {
     font-size: 62.5%;
 }
-
+.gallery {
+    list-style: none;
+}
 .galler--item {
     border: 4px solid lightgray;
     border-radius: 40px;
@@ -21,12 +23,4 @@ html {
     background-color: green;
     text-align: center;
     color: white;
-
-    
-}
-
-.gallery {
-    list-style: none;
-    display: block;
-    white-space: nowrap;
 }
